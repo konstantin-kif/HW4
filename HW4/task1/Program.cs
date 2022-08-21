@@ -26,4 +26,3 @@ if (numberB < 0)
     System.Console.WriteLine($"Некоректный ввод");
 }
 else System.Console.WriteLine($"{numberA}, {numberB} -> {ExponentiationOfNumber(numberA, numberB)}");
-
