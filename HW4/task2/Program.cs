@@ -20,7 +20,7 @@ int SumOfDigitsOfNumber(int number)
 }
 
 int value = Prompt("Введите значение числа: ");
-if (value > 0)
+if (value >= 0)
 {
     System.Console.WriteLine($"{value} -> {SumOfDigitsOfNumber(value)}");
 }
